@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAUSEEF FITNESS</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+
+.btn{
+
+}
+    /* CSS Reset */
+    body{margin: 667px;
+    padding: 0px;
+    background:url(img/megha-ajith-WRST5Pops3E-unsplash.jpg);
+  background-position:center ;
+  background height: 1000px;
+  font-family: 'BhuTuka Expanded One', cursive;
+  width: 55px;
+  box-sizing: border-box;
+
+
+  
+}
+  
+  .left{
+    dispaly:inline-block;
+position: absolute;
+left: 50px;
+top: 0px;
+
+
+
+  }
+  .mid{display: block;
+    width: 50%;
+    margin:0px auto;
+    position: absolute;
+    top:0px ;
+    right: 23%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    }
+  .right{position: absolute;
+    top:0px;
+    
+ dispaly:inline-block;
+position: absolute;
+right:20px;
+ }
+
+
+.header{box-sizing:border-box;}
+
+.navbar{
+  display:inline-block;
+  
+}
+ 
+.navbar li{
+  display: inline-block;
+  
+}
+
+.navbar li a{
+  color:rgb(8, 8, 8);
+  text-decoration: none;
+  padding:34px 12px;
+  font-size: 15px;
+  animation:box-shadow 2s;
+
+} 
+
+
+.navbar li a:hover, .navbar li a.active{
+  color:rgb(120, 42, 160);
+text-decoration:underline;
+
+
+
+
+}
+  .img{
+    width: 65px;
+    margin: 18px -32px;
+  }
+  .btn{background-color: black;
+    color: white;
+    margin:15px 1px;
+    font: size 20px; 
+    border:2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:background-color 1s, color 1s, border 4s,box-shadow 580ms;
+    /* box-shadow: 0px 0px 8px 1px rgba(0, 0, 255, .2); */
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2); 
+  }
+  .btn:hover{color:black;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2) ; 
+     box-shadow: 12px 12px 2px 1px rgb(0, 0, 0) ;  
+
+  }
+  p1{ 
+      margin: 20% -50%;}
+
+      .container{
+        display: inline-block;
+        border: 2px solid black;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+       padding:34px 123px;
+        width: 513px;
+        margin: 119px -36px;
+        box-sizing: border-box;
+        position: absolute;
+        right: 15%;
+        top: 11%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+      }
+      .form-group input{
+        font-size: medium;
+        margin: 10px; auto;
+        text-align: center;
+        display: block;
+        width: 200px;
+        border:2px solid black;
+        padding: 6px;
+        border-radius: 6px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        
+
+
+      }
+      .container .btn{
+       display: block;
+       width: 100px 100px;
+       margin: 6px 27px; 
+       padding: 2px 68px;
+       text-align: center;
+       box-sizing: border-box;
+
+      }
+  
+  
+
+    
+</style>
+<body>
+  <header class="header">
+    <!-- left box for logo -->
+    <div class="left">
+      <p1>TAUSEEF</p1>
+      <img class="img"src="img/images (2).jpeg" alt="">
+    
+    </div>
+
+    <!-- mid box for navigation bar -->
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class="active">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FITNESS CALCULATOR</a></li>
+        <li><a href="#">CONTACT US </a></li>
+      </ul>
+      
+    </div>  
+
+<!-- right box for buttons -->     
+    <div class="right">
+  <button class="btn">CALL US NOW</button>
+  <button class="btn">FEEDBACK</button>
+    </div>
+  </header>
+    <div class="container">
+      <h3>Join the best Gym in Delhi</h3>
+      <form action="noaction.php">
+        <div class="form-group">
+         <input type="text" name="" placeholder="Enter your Name"> 
+        </div>
+        <div class="form-group">
+          <input type="number" name="" placeholder="Enter your Age ">
+         </div>
+         <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Gender"> 
+         </div>
+         <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Locality"> 
+         </div>
+         <button class="btn">SUBMIT</button>
+        
+      </form>
+    </div>
+</body>
+</html>
